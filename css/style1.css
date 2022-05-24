@@ -1,0 +1,40 @@
+body{
+    background: url(../images/Kravchuk.jpg.jpg);
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.foto{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  a{
+    color:#fff;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color:#fff;
+    font-family: Uni Sans;
+}
+.headersection{
+    display: flex;
+    align-items: center;
+    }
+.headeritem{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.logo_item{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-350%);
+  
+  }
